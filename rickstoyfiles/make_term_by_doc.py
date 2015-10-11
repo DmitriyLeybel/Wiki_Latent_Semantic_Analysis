@@ -3,7 +3,7 @@
 import os, re
 
 #file_list = os.listdir('test_corpus') # get list of files
-file_list = os.listdir('toywikicorpus') # get list of files
+file_list = os.listdir('rickstoyfiles/toywikicorpus') # get list of files
 
 word_freq = {} # create a new "dictionary" -- special kind of list
 				# check out: http://www.tutorialspoint.com/python/python_dictionary.htm
@@ -17,7 +17,7 @@ for fname in file_list: # loop thru file names (string variables)
 	if len(re.findall('.txt$',fname)): # only find chat files (start with P)
 		#print(fname)
 		#fpath = 'test_corpus/' + fname # get path to the file 
-		fpath = 'toywikicorpus/' + fname # get path to the file 
+		fpath = 'rickstoyfiles/toywikicorpus/' + fname # get path to the file
 		fl = open(fpath,'r') 
 		flc = fl.read()
 		lines = flc.split('\n') # if you look at flc, you'll see this is the line separator

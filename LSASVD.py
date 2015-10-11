@@ -3,7 +3,7 @@ import scipy as sp
 import scipy.spatial as spl
 
 
-wordRank = sp.loadtxt('term_by_doc.txt',int)
+wordRank = sp.loadtxt('rickstoyfiles/term_by_doc.txt',int)
 
 U,s,V = sl.svd(wordRank)
 
@@ -14,7 +14,7 @@ V = V[0:4,:]
 
 nwordRank = sp.dot(U,sp.dot(S,V))
 
-execfile('make_term_by_doc.py')
+execfile('rickstoyfiles/make_term_by_doc.py')
 
 for x,y in zip(word_list,range(len(word_list))):
     print(y,x)
