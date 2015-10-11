@@ -1,0 +1,23 @@
+Documents defining columns in term_by_doc.txt:
+britneyspears.txt-1
+britneyspears.txt-2
+britneyspears.txt-3
+greenenergy.txt-1
+greenenergy.txt-2
+greenenergy.txt-3
+greenenergy.txt-4
+henryrollins.txt-1
+henryrollins.txt-2
+henryrollins.txt-3
+henryrollins.txt-4
+henryrollins.txt-5
+hydroelectricity.txt-1
+hydroelectricity.txt-2
+hydroelectricity.txt-3
+hydroelectricity.txt-4
+justintimberlake.txt-1
+justintimberlake.txt-2
+justintimberlake.txt-3
+justintimberlake.txt-4
+windmills.txt-1
+windmills.txt-2
